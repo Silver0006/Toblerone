@@ -1,7 +1,8 @@
-import tkinter, os, sys
+import tkinter, os, sys, pyautogui
 from playsound import playsound
 from tkinter import *
 from PIL import Image, ImageTk
+pyautogui.press('volumeup', 100)
 playsound("spook1.wav")
 root = Tk()
 playsound("spook2.mp3", block=False)
