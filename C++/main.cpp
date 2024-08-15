@@ -5,7 +5,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <toblerone/spooks_png.h>
-#include <toblerone/spook1_wav.h>
+#include <toblerone/spook1_ogg.h>
 #include <toblerone/spook2_ogg.h>
 using namespace std;
 
@@ -21,7 +21,7 @@ int main() {
     cout << "This is sleep time: " << times[time] << endl;
     sf::sleep(sf::seconds(static_cast<float>(times[time])));
     sf::SoundBuffer buffer;
-    if (!buffer.loadFromMemory(spook1_wav, spook1_wav_len)) {
+    if (!buffer.loadFromMemory(spook1_ogg, spook1_ogg_len)) {
         cerr << "Error loading sound from memory" << endl;
         return -1;
     }
