@@ -4,8 +4,8 @@ A harmless program that is meant to simulate a virus. At most causes irritation 
 ## C++
 
 ### Libraries
-[miniaudio](https://miniaud.io/index.html)
-[FLTK](https://www.fltk.org/)
+-[miniaudio](https://miniaud.io/index.html)
+-[FLTK](https://www.fltk.org/)
 
 ## Python
 Python files are designed to work in Auto-Py-To-Exe.
