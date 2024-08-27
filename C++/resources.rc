@@ -1,0 +1,6 @@
+// resources.rc
+
+// Include the default icon resource header
+#include "windows.h"
+
+IDI_ICON1 ICON "C:\Users\Aidan\CLionProjects\Toblerone\Toblerone.ico"
