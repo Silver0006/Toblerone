@@ -14,6 +14,8 @@
 #include <spook2_wav.h>
 #include <image_rgba.h>
 using std::vector, std::random_device , std::minstd_rand, std::uniform_int_distribution, std::cout, std::endl, std::cerr;
+//written before I knew better. Probably should rewrite from scratch.
+
 
 void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount) {
     ma_decoder* pDecoder = (ma_decoder*)pDevice->pUserData;
